@@ -1,0 +1,26 @@
+sudo: required
+
+script:
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - gcc --version
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-5
+    - g++-5
+
+language: java
+
+jdk:
+  - oraclejdk8
+
+env:
+  global:
+    - DEFOLD_AUTH=foobar
+    - DEFOLD_USER=john.doe@gmail.com
+
+script:
+  - "./.travis/run.sh"
