@@ -1,7 +1,8 @@
-# defold-travis-ci
-Travis-CI build script for the Defold game engine.
+# Travis-CI for Defold
+[Travis-CI](https://travis-ci.org) build script for the Defold game engine. Use these scripts to run unit tests whenever changes are made to your project or perform integration or performance checks on your project.
 
 ## Installation
+Installation is a simple process. Sign up for a Travis-CI account and copy two files to your project and you're good to go!
 
 ### 1 - Signup
 Sign up for an account at [Travis-CI](https://travis-ci.org).
