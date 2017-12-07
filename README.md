@@ -57,3 +57,6 @@ If you want to customize the build process then make any necessary changes to ``
 
 ### 6 - Commit changes
 Commit your changes to ```.travis.yml``` and Travis-CI will pick up on the changes and automatically start the build.
+
+## Example
+An example of this script in action can be seen in the Monarch project on [GitHub](https://github.com/britzl/monarch) and on [Travis-CI](https://travis-ci.org/britzl/monarch).
