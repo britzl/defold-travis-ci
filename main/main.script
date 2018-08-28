@@ -1,5 +1,5 @@
 function init(self)
 	timer.delay(1, false, function()
-		os.exit(1)
+		os.exit(0)
 	end)
 end
