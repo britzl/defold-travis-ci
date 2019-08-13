@@ -17,6 +17,8 @@ language: java
 jdk:
   - oraclejdk8
 
+dist: trusty
+
 env:
   global:
     - DEFOLD_AUTH=foobar
